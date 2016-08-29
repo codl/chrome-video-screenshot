@@ -13,6 +13,7 @@
     if(canvases.length == 0) return;
 
     var newwindow = window.open();
+    newwindow.document.body.appendChild(document.createTextNode("right click save as like a chump"));
     for(let canvas of canvases){
         newwindow.document.body.appendChild(canvas);
     }
