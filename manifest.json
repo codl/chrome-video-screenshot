@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "chrome-video-screenshot",
+    "version": "0.0.0",
+    "author": "codl <codl@codl.fr>",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "i am gay maybe change this later"
+    },
+    "background": {
+        "scripts": ["bg.js"],
+        "persistent": false
+    }
+
+}
