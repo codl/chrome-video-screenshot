@@ -4,7 +4,8 @@
     "version": "0.0.0",
     "author": "codl <codl@codl.fr>",
     "permissions": [
-        "activeTab"
+        "http://*/",
+        "https://*/"
     ],
     "browser_action": {
         "default_title": "i am gay maybe change this later"
