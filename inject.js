@@ -10,6 +10,8 @@
         canvases.push(canvas);
     }
 
+    if(canvases.length == 0) return;
+
     var newwindow = window.open();
     for(let canvas of canvases){
         newwindow.document.body.appendChild(canvas);
